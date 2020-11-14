@@ -1,11 +1,11 @@
 // --- Directions
-// Given a string, return true if the string is a palindrome
+// Given a string, return true if the string is a palindrome-complete
 // or false if it is not.  Palindromes are strings that
 // form the same word if it is reversed. *Do* include spaces
-// and punctuation in determining if the string is a palindrome.
+// and punctuation in determining if the string is a palindrome-complete.
 // --- Examples:
-//   palindrome("abba") === true
-//   palindrome("abcdefg") === false
+//   palindrome-complete("abba") === true
+//   palindrome-complete("abcdefg") === false
 
 function palindrome(str) {
   return str.split('').every((char, i) => {
@@ -15,7 +15,7 @@ function palindrome(str) {
 
 module.exports = palindrome;
 
-// function palindrome(str) {
+// function palindrome-complete(str) {
 //   const reversed = str
 //     .split('')
 //     .reverse()
