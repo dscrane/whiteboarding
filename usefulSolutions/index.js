@@ -5,7 +5,7 @@ function memoize(fn) {
 		if (cache[args]) {
 			return cache[args]
 		}
-		cosnt result = fn.apply(this.args);
+		const result = fn.apply(this.args);
 		return result;
 	}
 }
